@@ -16,6 +16,7 @@ def home(request):
 @login_required
 def dashboard(request):
     print(request.user)
+    print("hiiiiiiiiiiiiiiii")
     return render(request,"done.html")
 
 def logout(request):
