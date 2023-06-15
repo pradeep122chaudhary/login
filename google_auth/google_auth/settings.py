@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crendial',
+    "demo",
     'django.contrib.sites',
     'allauth', # must
     'allauth.account', # must
